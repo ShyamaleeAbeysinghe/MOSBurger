@@ -1,0 +1,67 @@
+.navbar01{
+    background-color: #D0CDCD ;
+}
+.burgerImg{
+    width: 120px;
+}
+
+.btnHome{
+    background-color: #581E1E !important;
+    color: white !important;
+    width: 120px;
+   
+}
+.btnOther{
+    background-color: #C06363 !important;
+    color: white !important;
+    width: 120px;
+    
+}
+.mainDiv{
+    background-color: #DFB1B1 !important;
+    
+}
+.searchBar{
+    margin-top: 15px !important;
+}
+.text01{
+    background-color: #D9D9D9 !important;
+    border-radius: 10px;
+    width: 200px;
+}
+.btnSearch{
+    background-color: #595151 !important;
+    color: white !important;
+    width: 100px;
+}
+
+.card001{
+    background-color: #A09B9B !important;
+}
+.imageafood002{
+    height: 300px;
+    
+}
+.title001{
+    color: #351212 !important;
+    text-align: center;
+}
+.priceAll{
+    color: #351212 !important;
+}
+.btnAdd002{
+    color: white !important;
+    background-color: #7B2A2A !important;
+    width: 120px;
+    margin-top: 5%;
+    margin-left: 20%;
+  
+   
+    
+}
+.footer01{
+    background-color: #351212 !important;
+    color: white !important;
+    margin-top: 5% !important;
+    padding: 1%;
+}

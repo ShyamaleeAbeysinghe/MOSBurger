@@ -1,0 +1,74 @@
+.navbar01{
+    background-color: #D0CDCD ;
+}
+.burgerImg{
+    width: 120px;
+}
+
+.btnCart{
+    background-color: #581E1E !important;
+    color: white !important;
+    width: 120px;
+   
+}
+.btnOther{
+    background-color: #C06363 !important;
+    color: white !important;
+    width: 120px;
+    
+}
+.mainDiv{
+    background-color: #DFB1B1 !important;
+    
+}
+.tableRow{
+    margin-top: 25px !important;
+}
+.tbl001,th001,td001{
+    border: 1px solid black;
+    background-color: white !important;
+}
+.tbl001 {
+    /* border-collapse: collapse; */
+    width: 100%;
+    padding-left: 100px !important;
+  }
+  
+  .th001 {
+    height: 70px;
+  }
+  .disTotal{
+    color: white;
+  }
+  .totaoDiscount{
+    margin-top: 5% !important;
+  }
+  .discount{
+    
+    margin-right: 10% !important;
+  }
+  .btnCheakout{
+    background-color: #595151 !important;
+    color: white !important;
+    width: 120px;
+    margin-bottom: 10% !important;
+  }
+  .footer01{
+    background-color: #351212 !important;
+    color: white !important;
+    margin-top: 5% !important;
+    padding: 1%;
+}
+.imgEdit{
+  width: 24px !important;
+}
+tr.tr004>td{
+  padding-bottom: 10px;
+}
+td.td004{
+   padding-left: 50px;
+}
+.btnSave{
+   background-color:  #C06363 !important;
+   color: white !important;
+}

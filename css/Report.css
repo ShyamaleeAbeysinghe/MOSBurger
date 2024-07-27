@@ -1,0 +1,40 @@
+.navbar01{
+    background-color: #D0CDCD ;
+}
+.burgerImg{
+    width: 120px;
+}
+
+.btnReport{
+    background-color: #581E1E !important;
+    color: white !important;
+    width: 120px;
+   
+}
+.btnOther{
+    background-color: #C06363 !important;
+    color: white !important;
+    width: 120px;
+    
+}
+.mainDiv{
+    background-color: #DFB1B1 !important;
+    
+}
+.mothly{
+    margin: 2.5% !important;
+}
+.fromTo{
+    color: white;
+}
+.btnGenarate{
+    background-color: #595151 !important;
+    color: white !important;
+    width: 100px;
+}
+.footer01{
+    background-color: #351212 !important;
+    color: white !important;
+    margin-top: 5% !important;
+    padding: 1%;
+}
