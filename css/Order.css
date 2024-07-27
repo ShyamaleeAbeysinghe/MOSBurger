@@ -57,8 +57,11 @@
     padding: 1%;
 }
 .imgEdit{
-    width: 24px !important;
-  }
+    width: 20px !important;
+}
+.imgDelete{
+    width: 20px !important;
+}
   tr.tr004>td{
     padding-bottom: 10px;
  }
