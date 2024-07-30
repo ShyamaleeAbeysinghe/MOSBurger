@@ -1,0 +1,464 @@
+[
+	{
+		"itemName": "Classic Burger (Large) ",
+		"quantity": "5",
+		"price": "750.00",
+		"expDate": "2024-08-15",
+		"itemCode": "B1001",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/clasic_burgers_large.jpg"
+	},
+	{
+		"itemName": "Classic Burger (Regular) ",
+		"quantity": "4",
+		"price": "1500.00",
+		"expDate": "2024-08-10",
+		"itemCode": "B1002",
+		"discount":"15%",
+		"category":"Burgers",
+        "image":"image/clasic_burger_regular.jpg"
+	},
+	{
+		"itemName": "Turkey Burger",
+		"quantity": "6",
+		"price": "1600.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1003",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/turkey_burger.jpg"
+	},
+	{
+		"itemName": "Chicken Burger (Large)",
+		"quantity": "3",
+		"price": "1400.00",
+		"expDate": "2024-08-13",
+		"itemCode": "B1004",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/chicken_burger_large.jpg"
+	},
+	{
+		"itemName": "Chicken Burger (Regular)",
+		"quantity": "5",
+		"price": "800.00",
+		"expDate": "2024-08-16",
+		"itemCode": "B1005",
+		"discount":"20%",
+		"category":"Burgers",
+        "image":"image/chicken_burger_regular.jpg"
+	},
+	{
+		"itemName": "Cheese Burger (Large)",
+		"quantity": "10",
+		"price": "1000.00",
+		"expDate": "2024-08-11",
+		"itemCode": "B1006",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/cheese_burger_large.jpg"
+	},
+	{
+		"itemName": "Cheese Burger (Regular)",
+		"quantity": "9",
+		"price": "600.00",
+		"expDate": "2024-08-19",
+		"itemCode": "B1007",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/cheese_burger_regular.jpg"
+	},
+	{
+		"itemName": "Bacon Burger",
+		"quantity": "5",
+		"price": "650.00",
+		"expDate": "2024-08-15",
+		"itemCode": "B1008",
+		"discount":"15%",
+		"category":"Burgers",
+        "image":"image/bacon_burger.jpg"
+	},
+	{
+		"itemName": "Shawarma Burger",
+		"quantity": "13",
+		"price": "800.00",
+		"expDate": "2024-08-16",
+		"itemCode": "B1009",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/shawarma_burgers.jpg"
+	},
+	{
+		"itemName": "Olive Burger",
+		"quantity": "4",
+		"price": "1800.00",
+		"expDate": "2024-08-10",
+		"itemCode": "B1010",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/olive_burger.jpg"
+	},
+	{
+		"itemName": "Double-Cheese Burger",
+		"quantity": "7",
+		"price": "1250.00",
+		"expDate": "2024-08-14",
+		"itemCode": "B1012 ",
+		"discount":"20%",
+		"category":"Burgers",
+        "image":"image/double_cheese_burger.jpg"
+	},
+	{
+		"itemName": "Crispy Chicken Burger (Regular)",
+		"quantity": "12",
+		"price": "1200.00 ",
+		"expDate": "2024-08-15",
+		"itemCode": "B1013 ",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/crispy_chicken_burger_regular.jpg"
+	},
+	{
+		"itemName": "Crispy Chicken Burger (Large)",
+		"quantity": "6",
+		"price": "1600.00",
+		"expDate": "2024-08-17",
+		"itemCode": "B1014",
+		"discount":"10%",
+		"category":"Burgers",
+        "image":"image/crispy_chicken_burger_large.jpg"
+	},
+	{
+		"itemName": "Paneer Burger",
+		"quantity": "10",
+		"price": "900.00",
+		"expDate": "2024-08-10",
+		"itemCode": "B1015",
+		"discount":"0%",
+		"category":"Burgers",
+        "image":"image/paneer_burger.jpg"
+	},
+	{
+		"itemName": "Crispy Chicken Submarine (Large)",
+		"quantity": "11",
+		"price": "2000.00",
+		"expDate": "2024-08-05",
+		"itemCode": "B1016 ",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/Crispy_Chicken_Submarine_Large.jpg"
+	},
+	{
+		"itemName": "Crispy Chicken Submarine (Regular)",
+		"quantity": "15",
+		"price": "1500.00",
+		"expDate": "2024-08-09",
+		"itemCode": "B1017",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/Crispy_Chicken_Submarine_Regular.jpg"
+	},
+	{
+		"itemName": "Chicken Submarine (Large)",
+		"quantity": "13",
+		"price": "1800.00",
+		"expDate": "2024-08-04",
+		"itemCode": "B1018 ",
+		"discount":"3%",
+		"category":"Submarines",
+        "image":"image/chiken_submarine_large.jpg"
+	},
+	{
+		"itemName": "Chicken Submarine (Regular)",
+		"quantity": "5",
+		"price": "1400.00",
+		"expDate": "2024-08-05",
+		"itemCode": "B1019",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/chiken_submarine_regular.jpg"
+	},
+	{
+		"itemName": "Grinder Submarine",
+		"quantity": "17",
+		"price": "2300.00 ",
+		"expDate": "2024-08-10",
+		"itemCode": "B1020",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/Grinder_submarine.jpg"
+	},
+	{
+		"itemName": "Cheese Submarine",
+		"quantity": "22",
+		"price": "1900.00",
+		"expDate": "2024-08-11",
+		"itemCode": "B1021",
+		"discount":"16%",
+		"category":"Submarines",
+        "image":"image/cheese_submarine.jpg"
+	},
+	{
+		"itemName": "Double Cheese n Chicken Submarine",
+		"quantity": "10",
+		"price": "2200.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1022",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/Double_Cheese_n_Chicken_Submarine.jpg"
+	},
+	{
+		"itemName": "Special Horgie Submarine",
+		"quantity": "25",
+		"price": "2800.00",
+		"expDate": "2024-08-13",
+		"itemCode": "B1023 ",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/Special_Horgie_Submarine.jpg"
+	},
+	{
+		"itemName": "MOS Special Submarine",
+		"quantity": "15",
+		"price": "3000.00 ",
+		"expDate": "2024-08-15",
+		"itemCode": "B1024",
+		"discount":"0%",
+		"category":"Submarines",
+        "image":"image/MOS_Special_Submarine.jpg"
+	},
+	{
+		"itemName": "Steak Fries (Large)",
+		"quantity": "10",
+		"price": "1200.00",
+		"expDate": "2024-08-11",
+		"itemCode": "B1025",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/Steak_Fries_large.jpg"
+	},
+	{
+		"itemName": "Steak Fries (Medium)",
+		"quantity": "12",
+		"price": "600.00 ",
+		"expDate": "2024-08-12",
+		"itemCode": "B1026 ",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/Steak_Fries_medium.jpg"
+	},
+	{
+		"itemName": "French Fries (Large)",
+		"quantity": "8",
+		"price": "800.00 ",
+		"expDate": "2024-08-03",
+		"itemCode": "B1027",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/French_fries_Large.jpg"
+	},
+	{
+		"itemName": "French Fries (Medium)",
+		"quantity": "23",
+		"price": "650.00",
+		"expDate": "2024-08-11",
+		"itemCode": "B1028",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/French_fries_medium.jpg"
+	},
+	{
+		"itemName": "French Fries (Small) ",
+		"quantity": "15",
+		"price": "450.00 ",
+		"expDate": "2024-08-12",
+		"itemCode": "B1029 ",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/French_fries_small.jpg"
+	},
+	{
+		"itemName": "Sweet Potato Fries (Large)",
+		"quantity": "30",
+		"price": "600.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1030 ",
+		"discount":"0%",
+		"category":"Fries",
+        "image":"image/Sweet_Potato_Fries_large.jpg"
+	},
+	{
+		"itemName": "Chicken n Cheese Pasta",
+		"quantity": "10",
+		"price": "2900.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1031",
+		"discount":"15%",
+		"category":"Pasta",
+        "image":"image/Chicken_n_Cheese_Pasta.jpg"
+	},
+	{
+		"itemName": "Chicken Penne Pasta ",
+		"quantity": "25",
+		"price": "1600.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1032",
+		"discount":"0%",
+		"category":"Pasta",
+        "image":"image/Chicken_Penne_Pasta.jpg"
+	},
+	{
+		"itemName": "Ground Turkey Pasta Bake",
+		"quantity": "14",
+		"price": "1700.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1033",
+		"discount":"0%",
+		"category":"Pasta",
+        "image":"image/Ground_Turkey_Pasta_Bake.jpg"
+	},
+	{
+		"itemName": "Creamy Shrimp Pasta ",
+		"quantity": "16",
+		"price": "2900.00 ",
+		"expDate": "2024-08-12",
+		"itemCode": "B1034",
+		"discount":"10%",
+		"category":"Pasta",
+        "image":"image/Creamy_Shrimp_Pasta.jpg"
+	},
+	{
+		"itemName": "Lemon Butter Pasta",
+		"quantity": "10",
+		"price": "1950.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1035",
+		"discount":"0%",
+		"category":"Pasta",
+        "image":"image/Lemon_Butter_Pasta.jpg"
+	},
+	{
+		"itemName": "Tagliatelle Pasta",
+		"quantity": "13",
+		"price": "2400.00",
+		"expDate": "2024-08-12",
+		"itemCode": "2400.00",
+		"discount":"1%",
+		"category":"Pasta",
+        "image":"image/Tagliatelle_Pasta.jpg"
+	},
+	{
+		"itemName": "Baked Ravioli ",
+		"quantity": "15",
+		"price": "2000.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1037",
+		"discount":"1%",
+		"category":"Pasta",
+        "image":"image/Baked_Ravioli.jpg"
+	},
+	{
+		"itemName": "Fried Chicken (Small) ",
+		"quantity": "30",
+		"price": "1200.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1038",
+		"discount":"0%",
+		"category":"Chicken",
+        "image":"image/Fried_Chicken_small.jpg"
+	},
+	{
+		"itemName": "Fried Chicken (Regular) ",
+		"quantity": "15",
+		"price": "2300.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1039",
+		"discount":"10%",
+		"category":"Chicken",
+        "image":"image/Fried_Chicken_medium.jpg"
+	},
+	{
+		"itemName": "Fried Chicken (Large) ",
+		"quantity": "25",
+		"price": "3100.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1040",
+		"discount":"5%",
+		"category":"Chicken",
+        "image":"image/Fried_Chicken_large.jpg"
+	},
+	{
+		"itemName": "Hot Wings (Large)",
+		"quantity": "20",
+		"price": "2400.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1041",
+		"discount":"0%",
+		"category":"Chicken",
+        "image":"image/Hot_Wings_large.jpg"
+	},
+	{
+		"itemName": "Devilled Chicken (Large)",
+		"quantity": "10",
+		"price": "900.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1042",
+		"discount":"0%",
+		"category":"Chicken",
+        "image":"image/Devilled_Chicken_large.jpg"
+	},
+	{
+		"itemName": "BBQ Chicken (Regular)",
+		"quantity": "5",
+		"price": "2100.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1043",
+		"discount":"0%",
+		"category":"Chicken",
+        "image":"image/BBQ_Chicken.jpg"
+	},
+	{
+		"itemName": "Pepsi (330ml)",
+		"quantity": "50",
+		"price": "990.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1044",
+		"discount":"5%",
+		"category":"Beverages",
+        "image":"image/Pepsi.jpg"
+	},
+	{
+		"itemName": "Coca-Cola (330ml)",
+		"quantity": "15",
+		"price": "1230.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1045",
+		"discount":"0%",
+		"category":"Beverages",
+        "image":"image/Coca_Cola.jpg"
+	},
+	
+	{
+		"itemName": "Sprite (330ml)",
+		"quantity": "25",
+		"price": "1500.00",
+		"expDate": "2024-08-12",
+		"itemCode": "B1046",
+		"discount":"3%",
+		"category":"Beverages",
+        "image":"image/Sprite.jpg"
+	},
+	{
+		"itemName": "Mirinda (330ml)",
+		"quantity": "20",
+		"price": "850.00",
+		"expDate": "2024-08-10",
+		"itemCode": "B1047",
+		"discount":"7%",
+		"category":"Beverages",
+        "image":"image/Mirinda.jpg"
+	}
+	
+]

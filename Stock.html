@@ -13,9 +13,10 @@
     <!-- for modal -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body >
     <div class="container-fluid">
         <div class="row navbar01">
             <nav class="navbar navbar-expand-lg navbar01">
@@ -77,69 +78,8 @@
             </div>
             <div class="container-fluid">
                 <div class="row tableRow table-responsive">
-                    <table class="table table-bordered tbl001">
-                        <tr>
-                            <th class="th001">Item Name</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                            <th>EXP Date</th>
-                            <th>Item Code</th>
-                            <th colspan="2">Action</th>
-                        </tr>
-                        <tr>
-                            <td class="td001"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                            <td><button class="btn  " data-bs-toggle="modal" data-bs-target="#stockAdd"><img src="image/edit.png" class="imgEdit"></button></td>
-                            <td><button class="btn"><img src="image/delete.png" class="imgDelete"></button></td>
-
-                        </tr>"
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                            <td><button class="btn " data-bs-toggle="modal" data-bs-target="#stockAdd"><img src="image/edit.png" class="imgEdit"></button></td>
-                            <td><button class="btn"><img src="image/delete.png" class="imgDelete"></button></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                            <td><button class="btn " data-bs-toggle="modal" data-bs-target="#stockAdd"><img src="image/edit.png" class="imgEdit"></button></td>
-                            <td><button class="btn"><img src="image/delete.png" class="imgDelete"></button></td>
-
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                            <td><button class="btn " data-bs-toggle="modal" data-bs-target="#stockAdd"><img src="image/edit.png" class="imgEdit"></button></td>
-                            <td><button class="btn"><img src="image/delete.png" class="imgDelete"></button></td>
-
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                            <td><button class="btn " data-bs-toggle="modal" data-bs-target="#stockAdd"><img src="image/edit.png" class="imgEdit"></button></td>
-                            <td><button class="btn"><img src="image/delete.png " class="imgDelete"></button></td>
-
-                        </tr>
+                    <table class="table table-bordered tbl001" id="stockTable">
+                        
                     </table>
                 </div>
 
@@ -167,23 +107,23 @@
                         <tr class="tr004">
                             <td><label>Item Name </label></td>
                             
-                            <td class="td004"><input type="text"></td>
+                            <td class="td004"><input type="text" id="iname"></td>
                         </tr>
                         <tr class="tr004">
                             <td><label>Quantity </label></td>
-                            <td class="td004"><input type="text"></td>
+                            <td class="td004"><input type="text" id="iqty"></td>
                         </tr>
                         <tr class="tr004">
                             <td><label>price </label></td>
-                            <td class="td004"><input type="text"></td>
+                            <td class="td004"><input type="text" id="iprice"></td>
                         </tr>
                         <tr class="tr004">
                             <td><label>EXP Date </label></td>
-                            <td class="td004"><input type="date"></td>
+                            <td class="td004"><input type="date" id="idate"></td>
                         </tr>
                         <tr>
                             <td><label>Item Code </label></td>
-                            <td class="td004"><input type="text"></td>
+                            <td class="td004"><input type="text" id="icode"></td>
                         </tr>
                     </table>
                     
@@ -194,12 +134,57 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btnSave">Save Item</button>
+                    <button type="button" class="btn btnSave" onclick="saveProduct()">Save Item</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="modal fade" id="stockUpdate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Update Item</h5>
+                </div>
+                <div class="modal-body">
+                    <table >
+                        <tr class="tr004">
+                            <td><label>Item Name </label></td>
+                            
+                            <td class="td004"><input type="text" id="uiname"></td>
+                        </tr>
+                        <tr class="tr004">
+                            <td><label>Quantity </label></td>
+                            <td class="td004"><input type="text" id="uiqty"></td>
+                        </tr>
+                        <tr class="tr004">
+                            <td><label>price </label></td>
+                            <td class="td004"><input type="text" id="uiprice"></td>
+                        </tr>
+                        <tr class="tr004">
+                            <td><label>EXP Date </label></td>
+                            <td class="td004"><input type="date" id="uidate"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Item Code </label></td>
+                            <td class="td004"><input type="text" id="uicode"></td>
+                        </tr>
+                    </table>
+                    
+                    
+                    <br>
+                    
+                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btnSave" id="btnUpdate">Update Item</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/Stock.js"></script>
 
 </body>
 
