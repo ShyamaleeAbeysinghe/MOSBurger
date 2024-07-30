@@ -6,7 +6,7 @@ let customerTableBody=` <tr>
                             
                         </tr>`;
 let customers
-fetch('/js/Customer.json')
+fetch('./js/Customer.json')
     .then((response) => response.json())
     .then((cutomerList) =>{
         customers=cutomerList;
