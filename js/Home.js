@@ -5,7 +5,7 @@ productTag.innerHTML = "";
 
 let productList = JSON.parse(localStorage.getItem('productList'));
 if (productList == undefined) {
-  fetch('/js/productList.json')
+  fetch('./js/productList.json')
     .then((response) => response.json())
     .then((productListnew) => {
       productList = productListnew;
