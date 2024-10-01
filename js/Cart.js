@@ -107,6 +107,41 @@ function checkOut() {
     cartList = [];
     localStorage.setItem("cartList", JSON.stringify(cartList));
     loadTable();
+    let customerList=JSON.parse(localStorage.getItem("customerList"));
+    if(customerList==undefined){
+        customerList=[];
+
+        customerList.push(
+            {
+                "customerName":cname.value,
+                "contactNuber":cnumber.value
+            },
+        );
+
+        
+    }else{
+        var isCustomerExist=false;
+        customerList.forEach(customer => {
+            if(customer.contactNuber==cnumber.value){
+                isCustomerExist=true;
+            }
+
+        });
+
+        if(isCustomerExist==false){
+            
+            customerList.push(
+                {
+                    "customerName":cname.value,
+                    "contactNuber":cnumber.value
+                },
+            );
+        }
+        
+    }
+    localStorage.setItem("customerList",JSON.stringify(customerList));
+
+    
 
     $('#customerDetails').modal('hide');
 }
