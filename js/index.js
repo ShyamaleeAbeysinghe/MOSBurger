@@ -1,1 +1,1 @@
-window.location="home.html"
+window.location="/MOSBurger/home.html"
