@@ -40,3 +40,49 @@ function deleteOrder(index) {
 
     loadTable();
 }
+
+function searchOrder() {
+    let oName = document.getElementById("oName").value;
+
+    var isOrderExist = false;
+
+    orderList.forEach(function (order, i) {
+
+        console.log(oName);
+
+        if(order.customer==oName){
+            isOrderExist = true;
+
+        orderTable.innerHTML = "";
+
+        let orderTableBody = ` <tr>
+                            <th class="th001">Order Id</th>
+                            <th>Customer</th>
+                            <th>Date & Time</th>
+                            <th>Total</th>
+                            <th>Discount</th>
+                            <th colspan="2">Action</th>
+                        </tr>`
+
+        orderTableBody += ` <tr>
+                        <td class="td001">${order.orderId}</td>
+                        <td>${order.customer}</td>
+                        <td>${order.date}</td>
+                        <td>${order.total}</td>
+                        <td>${order.discount}</td>
+                        <td><button class="btn " data-bs-toggle="modal" data-bs-target="#OrderEdit"><img src="image/edit.png" class="imgEdit"></button></td>
+                        <td><button class="btn" onclick="deleteOrder(${i})"><img src="image/delete.png" class="imgDelete"></button></td>
+                    </tr>`
+
+        orderTable.innerHTML=orderTableBody;
+
+        }
+        
+
+
+    });
+
+    if(isOrderExist==false){
+        alert("Item Not Found");
+      }
+}

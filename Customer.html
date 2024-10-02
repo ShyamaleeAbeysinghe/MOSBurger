@@ -65,8 +65,9 @@
         <div class="row mainDiv">
             <div class="row searchBar">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <input type="text" class="text01">
-                    <button class="btn btnSearch">Search</button>
+                    <input type="text" class="text01" id="cName" placeholder="Customer Name">
+                    <button class="btn btnSearch" onclick="searchCustomer()">Search</button>
+                    <button class="btn btnSearch" onclick="loadCustomer()">reset</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <button class="btn btnAddItem" data-bs-toggle="modal" data-bs-target="#customerEdit">Add Customer</button>
@@ -82,7 +83,7 @@
             <div class="container-fluid">
                 <div class="row ">
                     <div class="col text-center footer01">
-                        © 2024 MOS Burbers
+                        © 2024 MOS Burgers
                     </div>
                 </div>
             </div>

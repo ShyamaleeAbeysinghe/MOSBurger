@@ -56,7 +56,7 @@ function loadTable() {
 
 }
 
-function deleteStock(index){
+function deleteStock(index) {
     productList.splice(index, 1);
     localStorage.setItem("productList", JSON.stringify(productList));
     loadTable();
@@ -85,7 +85,7 @@ function saveProduct() {
 }
 
 function updateStock(index) {
-    console.log("aaaaaaaaaaaaaaaaaaaaaaaaa"+index)
+    console.log("aaaaaaaaaaaaaaaaaaaaaaaaa" + index)
     let iname = document.getElementById("uiname").value;
     let iqty = document.getElementById("uiqty").value;
     let iprice = document.getElementById("uiprice").value;
@@ -117,5 +117,49 @@ $(document).ready(function () {
         $(':input', this).val('');
     });
 });
+
+function searchStock() {
+    let sStock = document.getElementById("searchStock").value;
+    var isStockExist = false;
+
+    productList.forEach(function (product, i) {
+
+        if (product.itemName == sStock) {
+            isStockExist = true;
+           
+             let stockTable = document.getElementById("stockTable");
+             stockTable.innerHTML = "";
+
+             
+            let stockTableBody = `<tr>
+                            <th class="th001">Item Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>EXP Date</th>
+                            <th>Item Code</th>
+                            <th colspan="2">Action</th>
+                        </tr>`;
+
+            stockTableBody += `<tr>
+                                            <td class="td001">${product.itemName}</td>
+                                            <td>${product.quantity}</td>
+                                            <td>${product.price}</td>
+                                            <td>${product.expDate}</td>
+                                            <td>${product.itemCode}</td>
+                
+                                            <td><button class="btn  " onclick=edit(${i})><img src="image/edit.png" class="imgEdit"></button></td>
+                                            <td><button class="btn" onclick="deleteStock(${i})"><img src="image/delete.png" class="imgDelete"></button></td>
+                
+                                        </tr>`;
+
+            stockTable.innerHTML = stockTableBody;
+        }
+    });
+
+    if(isStockExist==false){
+        alert("Item Not Found");
+      }
+
+}
 
 

@@ -1,5 +1,7 @@
 let customerTable = document.getElementById("CustomerTable");
-let customerTableBody = ` <tr>
+loadCustomer()
+function loadCustomer(){
+    let customerTableBody = ` <tr>
                             <th class="th001">Customer Name</th>
                             <th>Contact Number</th>
                             <th colspan="2">Action</th>
@@ -24,6 +26,7 @@ customerList.forEach(function (customer, i) {
                         </tr>`
 });
 customerTable.innerHTML = customerTableBody;
+}
 
 
 
@@ -82,3 +85,44 @@ $(document).ready(function () {
         $(':input', this).val('');
     });
 });
+
+
+function searchCustomer() {
+    let cName = document.getElementById("cName").value;
+
+    let customerList = JSON.parse(localStorage.getItem("customerList"));
+    var isCustomerExist = false;
+
+    customerList.forEach(function (customer, i) {
+        if (customer.customerName == cName) {
+            isCustomerExist = true;
+
+            customerTable.innerHTML = "";
+
+            let customerTableBody = ` <tr>
+                            <th class="th001">Customer Name</th>
+                            <th>Contact Number</th>
+                            <th colspan="2">Action</th>
+                            
+                        </tr>`;
+
+            customerTableBody += ` <tr>
+                        <td class="td001">${customer.customerName}</td>
+                        <td>${customer.contactNuber}</td>
+                        <td><button class="btn " onclick=edit(${i})><img src="image/edit.png" class="imgEdit"></button></td>
+                        <td><button class="btn"><img src="image/delete.png"></button></td>
+                        
+
+                        
+                    </tr>`
+
+                    customerTable.innerHTML = customerTableBody;
+
+        }
+    });
+
+    if(isCustomerExist==false){
+        alert("Item Not Found");
+      }
+
+}

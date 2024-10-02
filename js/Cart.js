@@ -32,6 +32,7 @@ function loadTable() {
     <td><button class="btn" onclick="deleteItem(${i})"><img src="image/delete.png"></button></td>
 
 </tr>`
+console.log(cart.discount)
             let discountPerc = cart.discount.split("%")[0];
             if (discountPerc != 0) {
                 let discount = (discountPerc / 100) * cart.price;

@@ -68,8 +68,9 @@
         <div class="row mainDiv">
             <div class="row searchBar">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <input type="text" class="text01">
-                    <button class="btn btnSearch">Search</button>
+                    <input type="text" class="text01" id="searchStock" placeholder="Item Name">
+                    <button class="btn btnSearch" onclick="searchStock()">Search</button>
+                    <button class="btn btnSearch" onclick="loadTable()">Reset</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <button type="button" class="btn btnAddItem" data-bs-toggle="modal" data-bs-target="#stockAdd">Add
@@ -87,7 +88,7 @@
             <div class="container-fluid">
                 <div class="row ">
                     <div class="col text-center footer01">
-                        © 2024 MOS Burbers
+                        © 2024 MOS Burgers
                     </div>
                 </div>
             </div>
